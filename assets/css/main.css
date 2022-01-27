@@ -1,0 +1,13 @@
+body {
+    /* background-color: #ECF3FF; */
+    background-color: var(--thm-body-background-color);
+    margin: 0;
+    padding: 0;
+
+}
+
+.wrapper {
+    background-color: var(--thm-body-background-color);
+    margin: 0;
+    padding: 0;
+}
