@@ -5,30 +5,501 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Anton Beletsky">
 
     <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous"> -->
 
+    <!-- Bootstrap local CSS -->
+    <link href="./assets/css/bootstrap502.css" rel="stylesheet">
+
+    <!-- offcanvas  -->
+    <link href="./assets/css/offcanvas.css" rel="stylesheet">
+
+    <!-- project css -->
     <link href="./assets/css/theme_variables.css" rel="stylesheet">
     <link href="./assets/css/main.css" rel="stylesheet">
 
-    <title>Shopy</title>
+
+    <!-- double slider -->
+    <link href="./assets/css/double_slider.css" rel="stylesheet">
+
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-slider/11.0.2/css/bootstrap-slider.css"
+      integrity="sha512-SZgE3m1he0aEF3tIxxnz/3mXu/u/wlMNxQSnE0Cni9j/O8Gs+TjM9tm1NX34nRQ7GiLwUEzwuE3Wv2FLz2667w=="
+      crossorigin="anonymous" />
+
+      <!-- double slider enb -->
+
+    <title>Shopy Boostrap Theme</title>
 </head>
 
 <body>
+
     <!-- main header-->
     <header>
-        HEAD 
+        <!-- NAVBAR -->
+        <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark" aria-label="Main navigation">
+
+          <div class="container-fluid">
+
+            <a class="navbar-brand" href="#">Offcanvas navbar</a>
+            <!-- for mobile -->
+            <button class="navbar-toggler p-0 border-0" type="button" id="navbarSideCollapse" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="navbar-collapse offcanvas-collapse" id="navbarsExampleDefault">
+
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">Dashboard</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Notifications</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Profile</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Switch account</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-bs-toggle="dropdown"
+                    aria-expanded="false">Settings</a>
+                  <ul class="dropdown-menu" aria-labelledby="dropdown01">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item">
+                  <div class="sh-nav-spacer">
+
+                  </div>
+                </li>
+                <li>
+                  <div>
+                    <form class="d-flex">
+                      <input class="form-control me-2 sh-search" type="search" placeholder="Search" aria-label="Search">
+                      <button class="btn btn-outline-info" type="submit">Search</button>
+                    </form>
+                  </div>
+                </li>
+              </ul>
+
+
+
+              <div class="dropdown text-end">
+                <a href="#" class="d-block link-warning text-decoration-none dropdown-toggle" id="dropdownUser1"
+                  data-bs-toggle="dropdown" aria-expanded="false">
+                  <img src="https://github.com/mdo.png" alt="mdo" width="32" height="32" class="rounded-circle">
+                </a>
+                <ul class="dropdown-menu text-small" aria-labelledby="dropdownUser1">
+                  <li><a class="dropdown-item" href="#">New projecthttps://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpyGm54CjTIuIQoh-_O5L6ku-9dMFuekawpg&usqp=CAU</a></li>
+                  <li><a class="dropdown-item" href="#">Settings</a></li>
+                  <li><a class="dropdown-item" href="#">Profile</a></li>
+                  <li>
+                    <hr class="dropdown-divider">
+                  </li>
+                  <li><a class="dropdown-item" href="#">Sign out</a></li>
+                </ul>
+              </div>
+
+
+                <div class="text-end">
+                  <button type="button" class="btn btn-outline-light me-2">Login</button>
+                  <button type="button" class="btn btn-warning">Sign-up</button>
+                </div>
+
+            </div>
+
+          </div>
+        </nav>
+
+        <div class="nav-scroller bg-body shadow-sm">
+          <nav class="nav nav-underline" aria-label="Secondary navigation">
+            <a class="nav-link active" aria-current="page" href="#">Dashboard</a>
+            <a class="nav-link" href="#">
+              Friends
+              <span class="badge bg-light text-dark rounded-pill align-text-bottom">27</span>
+            </a>
+            <a class="nav-link" href="#">Explore</a>
+            <a class="nav-link" href="#">Suggestions</a>
+            <a class="nav-link" href="#">Глобальные категории</a>
+            <a class="nav-link" href="#">Link</a>
+            <a class="nav-link" href="#">Link</a>
+            <a class="nav-link" href="#">Link</a>
+            <a class="nav-link" href="#">Link</a>
+          </nav>
+        </div>
+        <!-- NAVBAR END -->
+
     </header>
 
-    <!-- content container-->
-    <div class="wrapper">
-        CONTENT
+<!-- content container-->
+<div class="wrapper">
+
+    <main>
+      <!-- TODO: add flex container -->
+
+<!-- https://getbootstrap.com/docs/5.0/layout/containers/ -->
+<!-- flex https://getbootstrap.com/docs/5.0/layout/utilities/ -->
+<div class="container-fluid">
+  <div class="row">
+      <div class="container-fluid">
+        <div class="col">
+
+          <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+              <li class="breadcrumb-item"><a href="#">Home</a></li>
+              <li class="breadcrumb-item"><a href="#">Library</a></li>
+              <li class="breadcrumb-item active" aria-current="page">Data</li>
+            </ol>
+          </nav>
+
+        </div>
+      </div>
+  </div>
+
+  <div class="row">
+    <!-- side bar https://getbootstrap.com/docs/5.0/examples/sidebars/ -->
+    <div class="col-2">
+
+      <div class="flex-shrink-0 p-3 bg-white" style="width: 280px;">
+        <a href="/" class="d-flex align-items-center pb-3 mb-3 link-dark text-decoration-none border-bottom">
+          <svg class="bi me-2" width="30" height="24">
+            <use xlink:href="#bootstrap"></use>
+          </svg>
+          <span class="fs-5 fw-semibold">Collapsible</span>
+        </a>
+        <ul class="list-unstyled ps-0">
+          <li class="mb-1">
+            <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse"
+              data-bs-target="#home-collapse" aria-expanded="false">
+              Home
+            </button>
+            <div class="collapse" id="home-collapse">
+              <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                <li><a href="#" class="link-dark rounded">Overview</a></li>
+                <li><a href="#" class="link-dark rounded">Updates</a></li>
+                <li><a href="#" class="link-dark rounded">Reports</a></li>
+              </ul>
+            </div>
+          </li>
+          <li class="mb-1">
+            <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse"
+              data-bs-target="#dashboard-collapse" aria-expanded="false">
+              Dashboard
+            </button>
+            <div class="collapse" id="dashboard-collapse">
+              <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                <li><a href="#" class="link-dark rounded">Overview</a></li>
+                <li><a href="#" class="link-dark rounded">Weekly</a></li>
+                <li><a href="#" class="link-dark rounded">Monthly</a></li>
+                <li><a href="#" class="link-dark rounded">Annually</a></li>
+              </ul>
+            </div>
+          </li>
+          <li class="mb-1">
+            <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse"
+              data-bs-target="#orders-collapse" aria-expanded="false">
+              Orders
+            </button>
+            <div class="collapse" id="orders-collapse">
+              <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                <li><a href="#" class="link-dark rounded">New</a></li>
+                <li><a href="#" class="link-dark rounded">Processed</a></li>
+                <li><a href="#" class="link-dark rounded">Shipped</a></li>
+                <li><a href="#" class="link-dark rounded">Returned</a></li>
+              </ul>
+            </div>
+          </li>
+          <li class="border-top my-3"></li>
+          <li class="mb-1">
+            <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse"
+              data-bs-target="#account-collapse" aria-expanded="false">
+              Account
+            </button>
+            <div class="collapse" id="account-collapse">
+              <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                <li><a href="#" class="link-dark rounded">Newhttps://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpyGm54CjTIuIQoh-_O5L6ku-9dMFuekawpg&usqp=CAU</a></li>
+                <li><a href="#" class="link-dark rounded">Profile</a></li>
+                <li><a href="#" class="link-dark rounded">Settings</a></li>
+                <li><a href="#" class="link-dark rounded">Sign out</a></li>
+              </ul>
+            </div>
+          </li>
+        </ul>
+      </div>
+
+      <br>
+
+      <!-- Collapsible -->
+
+
+      <div class="flex-shrink-0 p-3 bg-white" style="width: 280px;">
+        <a href="/" class="d-flex align-items-center pb-3 mb-3 link-dark text-decoration-none border-bottom">
+          <svg class="bi me-2" width="30" height="24">
+            <use xlink:href="#bootstrap"></use>
+          </svg>
+          <span class="fs-5 fw-semibold">Collapsible1</span>
+        </a>
+        <ul class="list-unstyled ps-0">
+          <li class="mb-1">
+            <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse"
+              data-bs-target="#home1-collapse" aria-expanded="false">
+              Home
+            </button>
+            <div class="collapse" id="home1-collapse">
+              <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                <li><a href="#" class="link-dark rounded">Overview</a></li>
+                <li><a href="#" class="link-dark rounded">Updates</a></li>
+                <li><a href="#" class="link-dark rounded">Reports</a></li>
+              </ul>
+            </div>
+          </li>
+          <li class="mb-1">
+            <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse"
+              data-bs-target="#dashboard1-collapse" aria-expanded="false">
+              Dashboard
+            </button>
+            <div class="collapse" id="dashboard1-collapse">
+              <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                <li><a href="#" class="link-dark rounded">Overview</a></li>
+                <li><a href="#" class="link-dark rounded">Weekly</a></li>
+                <li><a href="#" class="link-dark rounded">Monthly</a></li>
+                <li><a href="#" class="link-dark rounded">Annually</a></li>
+              </ul>
+            </div>
+          </li>
+          <li class="mb-1">
+            <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse"
+              data-bs-target="#orders1-collapse" aria-expanded="false">
+              Orders
+            </button>
+            <div class="collapse" id="orders1-collapse">
+              <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                <li><a href="#" class="link-dark rounded">New</a></li>
+                <li><a href="#" class="link-dark rounded">Processed</a></li>
+                <li><a href="#" class="link-dark rounded">Shipped</a></li>
+                <li><a href="#" class="link-dark rounded">Returned</a></li>
+              </ul>
+            </div>
+          </li>
+          <li class="border-top my-3"></li>
+          <li class="mb-1">
+            <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse"
+              data-bs-target="#account1-collapse" aria-expanded="false">
+              Account
+            </button>
+            <div class="collapse" id="account-collapse">
+              <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                <li><a href="#" class="link-dark rounded">Newhttps://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpyGm54CjTIuIQoh-_O5L6ku-9dMFuekawpg&usqp=CAU</a></li>
+                <li><a href="#" class="link-dark rounded">Profile</a></li>
+                <li><a href="#" class="link-dark rounded">Settings</a></li>
+                <li><a href="#" class="link-dark rounded">Sign out</a></li>
+              </ul>
+            </div>
+          </li>
+        </ul>
+      </div>
+
+<!-- 1 -->
+
+<br>
+
+<div class="card" style="width: 18rem;">
+  <div class="card-body">
+
+    <h5 class="card-title">Card title</h5>
+    <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.
+    </p>
+    <a href="https://getbootstrap.com/docs/5.0/components/card/">card</a>
+    <a href="#" class="card-link">Another link</a>
+
+    <!-- price -->
+
+    <div id="slider-outer-div">
+      <div id="slider-max-label" class="slider-label"></div>
+      <div id="slider-min-label" class="slider-label"></div>
+      <div id="slider-div">
+        <div>50 DH</div>
+        <div>
+          <input id="ex2" type="text" data-slider-min="50" data-slider-max="2000" data-slider-value="[50,300]"
+            data-slider-tooltip="hide" />
+        </div>
+        <div>2000 DH</div>
+      </div>
     </div>
+
+
+  </div>
+</div>
+
+
+<br>
+
+<div class="accordion" id="accordionPanelsStayOpenExample">
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+      <button class="accordion-button" type="button" data-bs-toggle="collapse"
+        data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+        Accordion Item #1
+      </button>
+    </h2>
+    <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show"
+      aria-labelledby="panelsStayOpen-headingOne">
+      <div class="accordion-body">
+        <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds
+        the appropriate classes that we use to style each element. These classes control the overall appearance, as well
+        as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our
+        default variables. It's also worth noting that just about any HTML can go within the
+        <code>.accordion-body</code>, though the transition does limit overflow.
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+        data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+        Accordion Item #2
+      </button>
+    </h2>
+    <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse"
+      aria-labelledby="panelsStayOpen-headingTwo">
+      <div class="accordion-body">
+        <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin
+        adds the appropriate classes that we use to style each element. These classes control the overall appearance, as
+        well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our
+        default variables. It's also worth noting that just about any HTML can go within the
+        <code>.accordion-body</code>, though the transition does limit overflow.
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+        data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false"
+        aria-controls="panelsStayOpen-collapseThree">
+        Accordion Item #3
+      </button>
+    </h2>
+    <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse"
+      aria-labelledby="panelsStayOpen-headingThree">
+      <div class="accordion-body">
+        <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin
+        adds the appropriate classes that we use to style each element. These classes control the overall appearance, as
+        well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our
+        default variables. It's also worth noting that just about any HTML can go within the
+        <code>.accordion-body</code>, though the transition does limit overflow.
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- 1-->
+
+    </div>
+    <!-- side bar end -->
+
+    <!-- central content -->
+    <div class="col-8">
+
+
+<div class="row row-cols-1 row-cols-md-3 g-4">
+  <div class="col">
+    <div class="card h-100">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpyGm54CjTIuIQoh-_O5L6ku-9dMFuekawpg&usqp=CAU" class="card-img-top" alt="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpyGm54CjTIuIQoh-_O5L6ku-9dMFuekawpg&usqp=CAU">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional
+          content. This content is a little bit longer.</p>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card h-100">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpyGm54CjTIuIQoh-_O5L6ku-9dMFuekawpg&usqp=CAU" class="card-img-top" alt="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpyGm54CjTIuIQoh-_O5L6ku-9dMFuekawpg&usqp=CAU">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">This is a short card.</p>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card h-100">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpyGm54CjTIuIQoh-_O5L6ku-9dMFuekawpg&usqp=CAU" class="card-img-top" alt="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpyGm54CjTIuIQoh-_O5L6ku-9dMFuekawpg&usqp=CAU">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional
+          content.</p>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card h-100">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpyGm54CjTIuIQoh-_O5L6ku-9dMFuekawpg&usqp=CAU" class="card-img-top" alt="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpyGm54CjTIuIQoh-_O5L6ku-9dMFuekawpg&usqp=CAU">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional
+          content. This content is a little bit longer.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+    </div>
+    <!-- central content end -->
+
+    <div class="col-2">
+
+        <div class="card" style="width: 18rem;">
+          <img src="https://psm7.com/wp-content/uploads/2016/08/first-pc.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.
+            </p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+
+        <div class="card" style="width: 18rem;">
+          <img src="https://psm7.com/wp-content/uploads/2016/08/first-pc.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.
+            </p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+
+        <div class="card" style="width: 18rem;">
+          <img src="https://psm7.com/wp-content/uploads/2016/08/first-pc.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.
+            </p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+    </div>
+
+
+  </div> <!-- -<div class="row"> -->
+</div> <!-- <div class="container-fluid"> -->
+
+</main>
+</div>
 
     <!-- main footer -->
     <footer>
         FOOTER
+
     </footer>
 
     <!---->
@@ -39,15 +510,33 @@
     <script src="./assets/js/jquery-3.6.0.js"></script>
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
-        crossorigin="anonymous"></script>
+        crossorigin="anonymous"></script> -->
+    <!-- Bootstrap Bundle -->
+    <script src="./assets/js/bootstrap.bundle.js"></script>
 
     <!-- Option 2: Separate Popper and Bootstrap JS -->
     <!--
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
     -->
+
+    <!-- https://getbootstrap.com/docs/5.0/components/offcanvas/ -->
+    <script src="./assets/js/offcanvas.js"></script>
+
+
+    <!-- double slider -->
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+          integrity="sha256-4+XzXVhsDmqanXGHaHvgh1gMQKX40OUvDEBTu8JcmNs=" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-slider/11.0.2/bootstrap-slider.min.js"
+          integrity="sha512-f0VlzJbcEB6KiW8ZVtL+5HWPDyW1+nJEjguZ5IVnSQkvZbwBt2RfCBY0CBO1PsMAqxxrG4Di6TfsCPP3ZRwKpA=="
+          crossorigin="anonymous"></script>
+
+        <script src="./assets/js/double_slider.js"></script>
+
+    <!-- double slider end -->
 </body>
 
 </html>

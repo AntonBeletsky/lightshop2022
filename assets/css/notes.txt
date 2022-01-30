@@ -2,3 +2,18 @@ background-color: #B8B8B8;
 
 !!! cool 
 https://color-hex.org/color/e6f1f8
+
+
+https://getbootstrap.com/docs/5.0/layout/grid/
+https://getbootstrap.com/docs/5.0/layout/containers/
+
+rem 
+https://learn.javascript.ru/css-units
+
+https://getbootstrap.com/docs/4.0/utilities/flex/
+
+https://getbootstrap.com/docs/5.1/components/card/
+
+https://getbootstrap.com/docs/5.0/helpers/colored-links/
+
+https://github.com/twbs/icons
